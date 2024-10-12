@@ -7,7 +7,6 @@ import os
 from dotenv import load_dotenv
 from hw_1 import LlamaIndex, get_giga, get_prompt, get_prompt_few_shot
 from langchain.chat_models.gigachat import GigaChat
-from langchain.schema import HumanMessage, SystemMessage
 
 load_dotenv(".env")
 sb_auth_data = os.getenv("SB_AUTH_DATA")
